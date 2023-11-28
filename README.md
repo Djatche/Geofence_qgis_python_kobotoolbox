@@ -1,6 +1,6 @@
 ## Améliorer la qualité des données géospatiales avec le « geofencing ». Un exemple avec la collecte d’échantillons pour la surveillance environnementale.
 
-Le geofencing est un outil basé sur la localisation lors de la collecte des données. Il vous aide à savoir dans la bonne zone pour collecter les données. 
+Le geofencing est un outil basé sur la localisation lors de la collecte des données. Il vous aide à savoir si vous êtes dans la bonne zone pour collecter les données. 
 
 Pour ce tutoriel nous avons utilisé les outils suivants :
 -	QGIS
@@ -16,5 +16,5 @@ Une équipe chargée de la surveillance épidémiologique environnementale doit 
 -	Importation du fichier csv ("preload_polygons.csv") comme fichier attaché dans le projet kobotoolbox.
 -	Création du fichier XLSForm au nom de ("XLSForm_site_prelevement")  pour la conception du formulaire de collecte et son importation dans le projet kobotoolbox.Les fonction PULL DATA, BEGIN REPEAT, END REPEAT, repeat_count ont été particulièrement utiles.                                  
 
-Ce tutoriel nous a été fortement inspiré de celui de "Humanitarian Data Solutions". Le nettoyage et de la manipulation des données ont été faites par les librairies pandas et numpy de python dans jupyter notebook en lieu et place de Power Bi.             
+Ce tutoriel nous a été fortement inspiré de celui de "Humanitarian Data Solutions". Le nettoyage et la manipulation des données ont été faites par les librairies pandas et numpy de python dans jupyter notebook en lieu et place de Power Bi.             
 il est disponiple ici https://www.youtube.com/watch?v=yg26PLctcEQ
