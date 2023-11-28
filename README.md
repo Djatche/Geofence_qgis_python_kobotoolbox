@@ -5,9 +5,9 @@ Le geofencing est un outil basé sur la localisation lors de la collecte des don
 Pour ce tutoriel nous avons utilisé les outils suivants :
 -	QGIS
 -	Kobotoolbox
--	Python et ses libraires pandas et numpy.
+-	Python et ses libraires pandas et numpy.                                                                     
 
-Une équipe chargée de la surveillance épidémiologique environnementale doit collecter des échantillons dans des eaux usées. La conception de l'ouitil de geofencing ont suivi les étapes suivantes décrites dans ce tutoriel :
+Une équipe chargée de la surveillance épidémiologique environnementale doit collecter des échantillons dans des eaux usées. Elle doit se rassurer que les prélèvements se feront dans le site (polygone) préalablement définit.  La conception de l'outil de geofencing ont suivi les étapes suivantes décrites dans ce tutoriel :
 ###	Création d’un projet QGIS sous le nom ''geofence_kobo.qgs''.
 -	Un shapefile de type polygone a été creé sous le nom ''site_prelevement.shp''. 4 entités ont été digitalisées  Ces 4 entités sont en fait des sites (polygones) de prélèvement prédéfinis. Ce sont les lac municipal et Obili de Yaoundé et deux sites sur le fleuve mbam de part et d’autre du bac de Bioko 1 à Ngambe tikar.
 -	Exportation de cette couche sous forme de fichiers csv (‘’site_prelevement_polygons.csv’’)
