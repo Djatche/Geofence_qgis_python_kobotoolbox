@@ -11,7 +11,7 @@ Une équipe chargée de la surveillance épidémiologique environnementale doit 
 ###	Création d’un projet QGIS sous le nom "geofence_kobo.qgs".
 -	Un shapefile de type polygone a été creé sous le nom "site_prelevement.shp" avec deux champs "id" et "nom" de type texte. Quatre (4) entités ont été digitalisées  Ces 4 entités sont en fait des sites (polygones) de prélèvement prédéfinis. Ce sont les lacs municipal et Obili de Yaoundé et deux sites sur le fleuve mbam de part et d’autre du bac de Bioko 1 à Ngambe tikar.
 -	Exportation de cette couche sous forme de fichiers csv ("site_prelevement_polygons.csv")
-###	Leettoyage et la manipulation des données de ce fichier à l’aide de pandas et numpy ainsi que sa sauvegarde sous le nom ("preload_polygons.csv"). Tout le script se trouve dans lefichier "geofence_polygons.ipynb".   
+###	Le nettoyage et la manipulation des données de ce fichier à l’aide de pandas et numpy ainsi que sa sauvegarde sous le nom ("preload_polygons.csv"). Tout le script se trouve dans le fichier jupyter notebook "geofence_polygons.ipynb".   
 ###	Création d’un projet kobotoolbox.
 -	Importation du fichier csv ("preload_polygons.csv") comme fichier attaché dans le projet kobotoolbox.
 -	Création du fichier XLSForm au nom de ("XLSForm_site_prelevement")  pour la conception du formulaire de collecte et son importation dans le projet kobotoolbox.Les fonction PULL DATA, BEGIN REPEAT, END REPEAT, repeat_count ont été particulièrement utiles.                                  
