@@ -16,4 +16,5 @@ Une équipe chargée de la surveillance épidémiologique environnementale doit 
 -	Importation du fichier csv ("preload_polygons.csv") comme fichier attaché dans le projet kobotoolbox.
 -	Conception du fichier XLSForm ("XLSForm_site_prelevement")  pour la conception du formulaire de collecte et importation dans le projet kobotoolbox.Les fonction PULL DATA, BEGIN REPEAT, END REPEAT, repeat_count ont été particulièrement utiles.                                  
 
-Ce tutoriel nous a été fortement inspiré de celui de "Humanitarian Data Solutions" disponiple ici https://www.youtube.com/watch?v=yg26PLctcEQ
+Ce tutoriel nous a été fortement inspiré de celui de "Humanitarian Data Solutions". Lnettoyage et de la manipulation des données ont été faites par les librairies pandas et numpy de python en lieu et place de Power Bi.             
+il est disponiple ici https://www.youtube.com/watch?v=yg26PLctcEQ
